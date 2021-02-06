@@ -1,0 +1,56 @@
+#myDIV {
+  width: 300px;
+  height: 500px;
+  border: 10px solid rgb(197, 95, 70);
+  background-image: url('sujal.jpg');
+  background-attachment: fixed;
+ 
+  position: relative;
+  border-radius: 25px;
+ 
+ 
+ 
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  0% {background-position: center;left:0px;right:0px}
+  25% {background-position: left;left:600px;right:0px}
+  50% {background-position: right;left:600px;right:600px}
+  75% {background-position: top;left:0px;right:600px}
+  100% {background-position: center;left:0px;right:0px}
+}
+#sujal{
+   
+  border: 3px solid green;
+  border-radius:25px;
+  background-image: url(AI.png);
+  padding: 1%;
+  text-align: center;
+  color:red;
+  text-shadow: 2px 4px 10px white;
+  
+}
+
+#dev{
+  background-image:url(AI.png);
+  border: 10px solid green;
+  border-radius:25px;
+  text-align:center;
+  padding-left: 5%;
+  font-size:60px;
+  color:red;
+  text-shadow: 2px 2px 20px white;
+}
+
+#pa{
+  font-size: 50px;
+  color:blue;
+  font-family: "Brush Script MT", cursive;
+}
+p{
+  text-shadow: 2px 3px 10px red;
+  color: yellow;
+  font-size:30px;
+
+}
